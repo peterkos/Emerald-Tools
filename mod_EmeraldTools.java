@@ -8,19 +8,11 @@ public  class mod_EmeraldTools extends BaseMod {
     public static final Item emeraldshovel = new ItemHoe (20003, EnumToolMaterial.EMP);
     public static final Item emeraldhoe = new ItemHoe (20004, EnumToolMaterial.EMP);
    //Armor
-<<<<<<< HEAD
   	public static final Item EmeraldHelmet = (new ItemArmor(20005,EnumArmorMaterial.EMA ,5,0 ));
   	public static final Item EmeraldChestplate = (new ItemArmor(20006, EnumArmorMaterial.EMA ,5,1 ));
   	public static final Item EmeraldPants = (new ItemArmor(20007,EnumArmorMaterial.EMA ,5,2 ));
   	public static final Item EmeraldBoots = (new ItemArmor(20008,EnumArmorMaterial.EMA, 5, 3 ));
     
-=======
-    public static final Item EmeraldHelmet = (new ItemArmor(20005,EnumArmorMaterial.EMA ,5,0 ).setItemName("emhe"));
-    public static final Item EmeraldChestplate = (new ItemArmor(20006, EnumArmorMaterial.EMA ,5,1 ).setItemName("embd"));
-    public static final Item EmeraldPants = (new ItemArmor(20007,EnumArmorMaterial.EMA ,5,2 ).setItemName("empa"));
-    public static final Item EmeraldBoots = (new ItemArmor(20008,EnumArmorMaterial.EMA, 5, 3 ).setItemName("embo"));
-   
->>>>>>> 1949c0ab30e12592fbfe00c8cf7bb2c4921ce14e
   	//ACHIVEMENTS
   	
   	public static Achievement emeralds = new Achievement(1001, "mineem", -2, 3, Item.emerald, AchievementList.diamonds).registerAchievement();
@@ -61,12 +53,12 @@ public  class mod_EmeraldTools extends BaseMod {
         ModLoader.addRecipe(new ItemStack(emeraldsword, 1), new Object[]{
         " * ", " * ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
         
-        //EmeraldAxe (first possible crafting recipe)
+        //EmeraldAxe (craftingrecipe 1)
         emeraldaxe.iconIndex = ModLoader.addOverride("/gui/items.png" , "/items/EmeraldAxe.png");
         ModLoader.addName(emeraldaxe, "Emerald Axe");
         ModLoader.addRecipe(new ItemStack(emeraldaxe, 1), new Object[]{
         " **", " $*", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
-        //EmeraldAxe (second possible crafting recipe)
+        //EmeraldAxe (craftingrecipe 2)
         emeraldaxe.iconIndex = ModLoader.addOverride("/gui/items.png" , "/items/EmeraldAxe.png");
         ModLoader.addName(emeraldaxe, "Emerald Axe");
         ModLoader.addRecipe(new ItemStack(emeraldaxe, 1), new Object[]{
@@ -78,50 +70,42 @@ public  class mod_EmeraldTools extends BaseMod {
         ModLoader.addRecipe(new ItemStack(emeraldshovel, 1), new Object[]{
         " * ", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
         
-        //Emerald Hoe (first possible crafting recipie)
         emeraldhoe.iconIndex = ModLoader.addOverride("/gui/items.png" , "/items/EmeraldHoe.png");
         ModLoader.addName(emeraldhoe, "Emerald Hoe");
         ModLoader.addRecipe(new ItemStack(emeraldhoe, 1), new Object[]{
         "** ", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
         
-        //Emerald Hoe (second possible crafting recipie)
         emeraldhoe.iconIndex = ModLoader.addOverride("/gui/items.png" , "/items/EmeraldHoe.png");
         ModLoader.addName(emeraldhoe, "Emerald Hoe");
         ModLoader.addRecipe(new ItemStack(emeraldhoe, 1), new Object[]{
         " **", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
-      
-      
-      
       //===ARMOR====  
-        		
-        		
-        		
-        // Emerald Helmet Armor
-     	EmeraldHelmet.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldHelmet.png");
-     	ModLoader.addName(EmeraldHelmet, "Emerald Helmet");
-     	ModLoader.addRecipe(new ItemStack(EmeraldHelmet,1), new Object[]{
-     		"***", "* *", "   ", Character.valueOf('*'), Item.emerald});
-     	
-     	// Emerald Chest Armor
-     	EmeraldChestplate.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldChestplate.png");
-     	ModLoader.addName(EmeraldChestplate, "Emerald Chestplate");
-     	ModLoader.addRecipe(new ItemStack(EmeraldChestplate,1), new Object[]{
-     		"* *", "***", "***", Character.valueOf('*'), Item.emerald});
+        		// Emerald Helmet Armor
+     			EmeraldHelmet.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldHelmet.png");
+     			ModLoader.addName(EmeraldHelmet, "Emerald Helmet");
+     			ModLoader.addRecipe(new ItemStack(EmeraldHelmet,1), new Object[]{
+     				"***", "* *", "   ", Character.valueOf('*'), Item.emerald});
+     			
+     			// Emerald Chest Armor
+     			EmeraldChestplate.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldChestplate.png");
+     			ModLoader.addName(EmeraldChestplate, "Emerald Chestplate");
+     			ModLoader.addRecipe(new ItemStack(EmeraldChestplate,1), new Object[]{
+     				"* *", "***", "***", Character.valueOf('*'), Item.emerald});
      			
      			
-     	// Emerald Pants Armor
-     	EmeraldPants.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldPants.png");
-     	ModLoader.addName(EmeraldPants, "Emerald Pants");
-     	ModLoader.addRecipe(new ItemStack(EmeraldPants,1), new Object[]{
-     		"***", "* *", "* *", Character.valueOf('*'), Item.emerald});
+     			// Emerald Pants Armor
+     			EmeraldPants.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldPants.png");
+     			ModLoader.addName(EmeraldPants, "Emerald Pants");
+     			ModLoader.addRecipe(new ItemStack(EmeraldPants,1), new Object[]{
+     				"***", "* *", "* *", Character.valueOf('*'), Item.emerald});
      			
-     	// Emerald Boots Armor
-     	EmeraldBoots.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldBoots.png");
-     	ModLoader.addName(EmeraldBoots, "Emerald Boots");
-     	ModLoader.addRecipe(new ItemStack(EmeraldBoots,1), new Object[]{
-     		"   ", "* *", "* *", Character.valueOf('*'), Item.emerald});
+     			// Emerald Boots Armor
+     			EmeraldBoots.iconIndex = ModLoader.addOverride("/gui/items.png", "/armor/EmeraldBoots.png");
+     			ModLoader.addName(EmeraldBoots, "Emerald Boots");
+     			ModLoader.addRecipe(new ItemStack(EmeraldBoots,1), new Object[]{
+     				"   ", "* *", "* *", Character.valueOf('*'), Item.emerald});
      				
-     	ModLoader.addArmor("emeraldarmor"); 
+     			ModLoader.addArmor("emeraldarmor"); 
 
     }
 
@@ -129,7 +113,7 @@ public  class mod_EmeraldTools extends BaseMod {
 
     public String getVersion()
     {
-        return "1.5";
+        return "1.0";
     }
 
 
