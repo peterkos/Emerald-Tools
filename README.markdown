@@ -72,14 +72,14 @@ Macintosh:
 1. Go to Applications>Utilities and open terminal.
 2. Type in the following, line by line:
 	
-	`cd ~
-	mkdir mctmp
-	cd mctmp
-	jar xf ~/Library/Application\ Support/minecraft/bin/minecraft.jar `
+	`cd ~`
+	`mkdir mctmp`
+	`cd mctmp`
+	`jar xf ~/Library/Application\ Support/minecraft/bin/minecraft.jar `
 3. Outside of terminal, copy Modloader and the *wl.class*, *uq.class*, *mod_EmeraldTools.class*, *armor*, and *textures* into the `mctmp` directory.
 4. Back inside terminal, type in the following:
-	`rm META-INF/MOJANG_C.*
-	jar uf ~/Library/Application\ Support/minecraft/bin/minecraft.jar ./
-	cd ..
-	rm -rf mctmp `
+	`rm META-INF/MOJANG_C.*`
+	`jar uf ~/Library/Application\ Support/minecraft/bin/minecraft.jar ./`
+	`cd ..`
+	`rm -rf mctmp `
 5. Run Minecraft, enjoy!
