@@ -1,5 +1,5 @@
 #Emeralds+
-######Putting some use to Emeralds
+#####Putting some use to Emeralds
 
 This mod allows you to create items with Emeralds, such as
 
@@ -50,3 +50,36 @@ Finally: Achievements!
 
 - First release! 
 - Has everything described before the **changelog**
+
+
+##Installation & Download
+
+###[Download the Mod!](http://www.mediafire.com/download.php?9is8pa8buos2zr5) 
+###Requires [ModLoader](http://dl.dropbox.com/u/20629262/Latest/ModLoader.zip)
+
+
+Windows:
+
+1. Open up %appdata%, if you don't know how to do this, start>run, then type in %appdata%
+2. Browse to .minecraft/bin
+3. Open up minecraft.jar with WinRAR or 7zip.
+4. Drag and drop the necessary files into the jar.
+5. Delete the META-INF folder in the jar.
+6. Run Minecraft, enjoy!
+
+Macintosh:
+
+1. Go to Applications>Utilities and open terminal.
+2. Type in the following, line by line:
+	
+	`cd ~
+	mkdir mctmp
+	cd mctmp
+	jar xf ~/Library/Application\ Support/minecraft/bin/minecraft.jar `
+3. Outside of terminal, copy Modloader and the *wl.class*, *uq.class*, *mod_EmeraldTools.class*, *armor*, and *textures* into the `mctmp` directory.
+4. Back inside terminal, type in the following:
+	`rm META-INF/MOJANG_C.*
+	jar uf ~/Library/Application\ Support/minecraft/bin/minecraft.jar ./
+	cd ..
+	rm -rf mctmp `
+5. Run Minecraft, enjoy!
