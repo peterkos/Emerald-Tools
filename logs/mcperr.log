@@ -1,0 +1,46 @@
+21:06:03 - !! Modified jar detected. Unpredictable results !!
+21:08:58 - 'patch -p1 -u -i ../../temp/temp.patch -d src/minecraft' failed : 1
+21:08:58 - 
+21:08:58 - == ERRORS FOUND ==
+21:08:58 - 
+21:08:58 - 1 out of 1 hunk ignored -- saving rejects to file net/minecraft/src/IntegratedServer.java.rej
+21:08:58 - 2 out of 2 hunks FAILED -- saving rejects to file net/minecraft/src/RenderBlocks.java.rej
+21:08:58 - ==================
+21:08:58 - 
+21:09:13 - !! Missing server jar file. Aborting !!
+21:09:26 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+21:09:26 - 
+21:09:26 - == ERRORS FOUND ==
+21:09:26 - 
+21:09:26 - src/minecraft/net/minecraft/src/RenderBlocks.java:4954: missing return statement
+21:09:26 -     }
+21:09:26 -     ^
+21:09:26 - 
+21:09:26 - 1 error
+21:09:26 - ==================
+21:09:26 - 
+21:09:26 - Initial client recompile failed, correct source then run updatemd5
+21:26:03 - !! Modified jar detected. Unpredictable results !!
+21:26:03 - !! client already decompiled. Run cleanup before decompiling again !!
+21:26:03 - !! Missing server jar file. Aborting !!
+21:26:29 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+21:26:29 - 
+21:26:29 - == ERRORS FOUND ==
+21:26:29 - 
+21:26:29 - src/minecraft/net/minecraft/src/ModLoader.java:763: cannot find symbol
+21:26:29 - symbol  : variable cfgGrassFix
+21:26:29 - location: class net.minecraft.src.RenderBlocks
+21:26:29 -                 RenderBlocks.cfgGrassFix = Boolean.parseBoolean(props.getProperty("grassFix"));
+21:26:29 -                             ^
+21:26:29 - 
+21:26:29 - src/minecraft/net/minecraft/src/ModLoader.java:807: cannot find symbol
+21:26:29 - symbol  : variable cfgGrassFix
+21:26:29 - location: class net.minecraft.src.RenderBlocks
+21:26:29 -             props.setProperty("grassFix", Boolean.toString(RenderBlocks.cfgGrassFix));
+21:26:29 -                                                                        ^
+21:26:29 - 
+21:26:29 - 2 errors
+21:26:29 - ==================
+21:26:29 - 
+21:26:29 - Client recompile failed, correct source then rerun updatemd5
+21:26:29 - !! Can not find server sources, try decompiling !!
