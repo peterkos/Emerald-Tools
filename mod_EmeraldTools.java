@@ -2,16 +2,16 @@ package net.minecraft.src;
 import java.util.Random;
 
 public  class mod_EmeraldTools extends BaseMod {
-    public static final Item emeraldpickaxe = new ItemPickaxe (20000, EnumToolMaterial.EMP).setItemName("empk");
-    public static final Item emeraldsword = new ItemSword (20001, EnumToolMaterial.EMP).setItemName("emsw");
-    public static final Item emeraldaxe = new ItemAxe (20002, EnumToolMaterial.EMP).setItemName("emax");
-    public static final Item emeraldshovel = new ItemHoe (20003, EnumToolMaterial.EMP).setItemName("emsh");
-    public static final Item emeraldhoe = new ItemHoe (20004, EnumToolMaterial.EMP).setItemName("emho");
+    public static final Item emeraldpickaxe = new ItemPickaxe (20000, EnumToolMaterial.EMP);
+    public static final Item emeraldsword = new ItemSword (20001, EnumToolMaterial.EMP);
+    public static final Item emeraldaxe = new ItemAxe (20002, EnumToolMaterial.EMP);
+    public static final Item emeraldshovel = new ItemHoe (20003, EnumToolMaterial.EMP);
+    public static final Item emeraldhoe = new ItemHoe (20004, EnumToolMaterial.EMP);
    //Armor
-  	public static final Item EmeraldHelmet = (new ItemArmor(20005,EnumArmorMaterial.EMA ,5,0 ).setItemName("emhe"));
-  	public static final Item EmeraldChestplate = (new ItemArmor(20006, EnumArmorMaterial.EMA ,5,1 ).setItemName("embd"));
-  	public static final Item EmeraldPants = (new ItemArmor(20007,EnumArmorMaterial.EMA ,5,2 ).setItemName("empa"));
-  	public static final Item EmeraldBoots = (new ItemArmor(20008,EnumArmorMaterial.EMA, 5, 3 ).setItemName("embo"));
+  	public static final Item EmeraldHelmet = (new ItemArmor(20005,EnumArmorMaterial.EMA ,5,0 ));
+  	public static final Item EmeraldChestplate = (new ItemArmor(20006, EnumArmorMaterial.EMA ,5,1 ));
+  	public static final Item EmeraldPants = (new ItemArmor(20007,EnumArmorMaterial.EMA ,5,2 ));
+  	public static final Item EmeraldBoots = (new ItemArmor(20008,EnumArmorMaterial.EMA, 5, 3 ));
     
   	//ACHIVEMENTS
   	
