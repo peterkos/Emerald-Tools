@@ -7,7 +7,7 @@ public enum EnumArmorMaterial
     IRON(15, new int[]{2, 6, 5, 2}, 9),
     GOLD(7, new int[]{2, 5, 3, 1}, 25),
     DIAMOND(33, new int[]{3, 8, 6, 3}, 10),
-    EMA(60, new int[]{5, 10, 8, 6}, 12);
+    EMA(60, new int[]{4, 9, 7, 5}, 12);
 
     /**
      * Holds the maximum damage factor (each piece multiply this by it's own value) of the material, this is the item

@@ -50,11 +50,12 @@ public  class mod_EmeraldTools extends BaseMod {
         ModLoader.addRecipe(new ItemStack(emeraldsword, 1), new Object[]{
         " * ", " * ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
         
-        //EmeraldAxe (craftingrecipe 1)
+        //EmeraldAxe (1st possible crafting recipe
         ModLoader.addName(emeraldaxe, "Emerald Axe");
         ModLoader.addRecipe(new ItemStack(emeraldaxe, 1), new Object[]{
         " **", " $*", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
-        //EmeraldAxe (craftingrecipe 2)
+        
+        //EmeraldAxe (2nd possible crafting recipe
         ModLoader.addName(emeraldaxe, "Emerald Axe");
         ModLoader.addRecipe(new ItemStack(emeraldaxe, 1), new Object[]{
         "** ", "*$ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
@@ -64,37 +65,42 @@ public  class mod_EmeraldTools extends BaseMod {
         ModLoader.addRecipe(new ItemStack(emeraldshovel, 1), new Object[]{
         " * ", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
         
+        //Emerald Hoe (1st possible crafting recipe)
         ModLoader.addName(emeraldhoe, "Emerald Hoe");
         ModLoader.addRecipe(new ItemStack(emeraldhoe, 1), new Object[]{
         "** ", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
         
+        //Emerald Hoe (2nd possible crafting recipe
         ModLoader.addName(emeraldhoe, "Emerald Hoe");
         ModLoader.addRecipe(new ItemStack(emeraldhoe, 1), new Object[]{
         " **", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
-      //===ARMOR====  
-        		// Emerald Helmet Armor
-     			ModLoader.addName(EmeraldHelmet, "Emerald Helmet");
-     			ModLoader.addRecipe(new ItemStack(EmeraldHelmet,1), new Object[]{
-     				"***", "* *", "   ", Character.valueOf('*'), Item.emerald});
+      
+        
+        //               --<<=============ARMOR==============>>--  
+        		
+        // Emerald Helmet Armor
+        ModLoader.addName(EmeraldHelmet, "Emerald Helmet");
+     	ModLoader.addRecipe(new ItemStack(EmeraldHelmet,1), new Object[]{
+     		"***", "* *", "   ", Character.valueOf('*'), Item.emerald});
      			
-     			// Emerald Chest Armor
-     			ModLoader.addName(EmeraldChestplate, "Emerald Chestplate");
-     			ModLoader.addRecipe(new ItemStack(EmeraldChestplate,1), new Object[]{
-     				"* *", "***", "***", Character.valueOf('*'), Item.emerald});
+     	// Emerald Chest Armor
+     	ModLoader.addName(EmeraldChestplate, "Emerald Chestplate");
+     	ModLoader.addRecipe(new ItemStack(EmeraldChestplate,1), new Object[]{
+     		"* *", "***", "***", Character.valueOf('*'), Item.emerald});
      			
+     	// Emerald Pants Armor
+     	ModLoader.addName(EmeraldPants, "Emerald Pants");
+     	ModLoader.addRecipe(new ItemStack(EmeraldPants,1), new Object[]{
+     		"***", "* *", "* *", Character.valueOf('*'), Item.emerald});
      			
-     			// Emerald Pants Armor
-     			ModLoader.addName(EmeraldPants, "Emerald Pants");
-     			ModLoader.addRecipe(new ItemStack(EmeraldPants,1), new Object[]{
-     				"***", "* *", "* *", Character.valueOf('*'), Item.emerald});
-     			
-     			// Emerald Boots Armor
-     			ModLoader.addName(EmeraldBoots, "Emerald Boots");
-     			ModLoader.addRecipe(new ItemStack(EmeraldBoots,1), new Object[]{
-     				"   ", "* *", "* *", Character.valueOf('*'), Item.emerald});
+     	// Emerald Boots Armor
+     	ModLoader.addName(EmeraldBoots, "Emerald Boots");
+     	ModLoader.addRecipe(new ItemStack(EmeraldBoots,1), new Object[]{
+     		"   ", "* *", "* *", Character.valueOf('*'), Item.emerald});
      				
-     			ModLoader.addArmor("emar"); 
-
+     	ModLoader.addArmor("emar"); 
+     	//Identifies "external" armor textire [when the player is wearing it] in the /armor folder.
+     	//(labeled emar_1 && emar_2
     }
 
 
