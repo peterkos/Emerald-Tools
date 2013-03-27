@@ -5,7 +5,7 @@ public  class mod_EmeraldTools extends BaseMod {
     public static final Item emeraldpickaxe = new ItemPickaxe (20000, EnumToolMaterial.EMP).setUnlocalizedName("empk");
     public static final Item emeraldsword = new ItemSword (20001, EnumToolMaterial.EMP).setUnlocalizedName("emsw");
     public static final Item emeraldaxe = new ItemAxe (20002, EnumToolMaterial.EMP).setUnlocalizedName("emax");
-    public static final Item emeraldshovel = new ItemHoe (20003, EnumToolMaterial.EMP).setUnlocalizedName("emsh");
+    public static final Item emeraldshovel = new ItemSpade (20003, EnumToolMaterial.EMP).setUnlocalizedName("emsh");
     public static final Item emeraldhoe = new ItemHoe (20004, EnumToolMaterial.EMP).setUnlocalizedName("emho");
    //Armor
   	public static final Item EmeraldHelmet = (new ItemArmor(20005,EnumArmorMaterial.EMA ,5,0 )).setUnlocalizedName("emhe");
@@ -70,7 +70,7 @@ public  class mod_EmeraldTools extends BaseMod {
         ModLoader.addRecipe(new ItemStack(emeraldhoe, 1), new Object[]{
         "** ", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
         
-        //Emerald Hoe (2nd possible crafting recipe
+        //Emerald Hoe (2nd possible crafting recipe.
         ModLoader.addName(emeraldhoe, "Emerald Hoe");
         ModLoader.addRecipe(new ItemStack(emeraldhoe, 1), new Object[]{
         " **", " $ ", " $ ", Character.valueOf('*'), Item.emerald, Character.valueOf('$'), Item.stick});
