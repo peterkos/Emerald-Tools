@@ -1,3 +1,7 @@
+
+Note: On hiatus. Last update was for 1.5.1 with ModLoader, although a Forge port and rewrite may be done in the future. 
+
+
 #Emeralds+
 #####Putting some use to Emeralds
 
